@@ -1,0 +1,13 @@
+<?php
+
+$servername="localhost";
+$databaseusername="root";
+$databasePassword="";
+$databasename="chessaccounts";
+
+$conn = new mysqli($servername,$databaseusername,$databasePassword,$databasename);
+
+if (!conn) {
+    die ("Connnection Failed".mysqli_connect_error());
+}
+    
